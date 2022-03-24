@@ -16,5 +16,15 @@ namespace WindowsFormsClient
         {
             InitializeComponent();
         }
+
+        private void SendButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void MessageTB_TextChanged(object sender, EventArgs e)
+        {
+            UserNameTB.Text = MessageTB.Text;
+        }
     }
 }
